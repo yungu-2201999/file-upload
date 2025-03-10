@@ -19,6 +19,7 @@ todo：
 xhr.upload.addEventListener('progress', function(e) {
 
 })
+（fetch无法跟踪）
 ```
 3. 取消上传
 ```
