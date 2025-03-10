@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>选择文件上传</title>
+  <style>
+    .container{
+      width: 600px;
+      height: 300px;
+      background-color: #1b1b1b66;
+    }
+  </style>
+</head>
+<body>
+  <h2>选择多个文件</h2>
+  <input id="file1" type="file" multiple>
+  <script src="./script1.js"></script>
+  <h2>选择单个文件夹(该功能不支持IE)</h2>
+  <input id="file2" type="file" webkitdirectory mozdirectory odirectory directory>
+  <script src="./script2.js"></script>
+  <h2>拖拽实现上传文件</h2>
+  <div class="container"></div>
+  <script src="./script3.js"></script>
+</body>
+</html>
